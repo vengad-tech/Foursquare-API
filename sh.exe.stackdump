@@ -1,0 +1,9 @@
+MSYS-1.0.12 Build:2011-05-22 01:19
+Exception: STATUS_ACCESS_VIOLATION at eip=00697908
+eax=00000001 ebx=0022FB84 ecx=0070BB5C edx=002C0000 esi=0022FB88 edi=00000000
+ebp=0022FB5C esp=0022F9E4 program=C:\Program Files\Git\git-cheetah\..\bin\sh.exe
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022FB5C  00697908  (00BC0000, 0022FBB8, 00529F39, 0059BB44)
+ 416062 [main] sh 3212 handle_exceptions: Error while dumping state (probably corrupted stack)
